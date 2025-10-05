@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: telegram-absensi-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python3 bot.py"
